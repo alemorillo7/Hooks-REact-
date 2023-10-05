@@ -10,10 +10,6 @@ export const UseForm = (initialForm={}) => {
     })
 }
 
-
-
-
-
   return {
     ...formulario,
     formulario,
