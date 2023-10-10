@@ -1,7 +1,10 @@
 
+
 import { UseForm } from '../hooks/UseForm'
 
 export const FormularioComponent = () => {
+
+  
 const initialForm={
     username: ``,
     email: ``,
@@ -15,6 +18,8 @@ const initialForm={
             event.preventDefault()
             console.log(formulario)
         }
+
+     
 
   return (
     <form onSubmit={onSubmit}>
